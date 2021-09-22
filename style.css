@@ -22,13 +22,13 @@ a{
     background-image: linear-gradient( to left,rgb(218, 170, 170), rgb(198, 253, 249));
 }
 .div-class{
-    width: 50%;
+    width: 60%;
 }
 .image img{
     margin-left: 50%;
     width: 47%;
 }
-#github-button{
+#button{
     
     color: rgb(0, 0, 0);
     margin: 5px;
@@ -37,3 +37,29 @@ a{
     background-image: linear-gradient(rgb(8, 160, 140), rgb(30, 158, 137));
 
 }
+.middle-banner{
+    background-image: linear-gradient(to right,red,teal);
+}
+.experience-item{
+    box-shadow: 20px 20px 100px teal;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 10%;
+}
+
+#work1{
+     border: 7px solid;
+    margin: 20px;
+    border-image: linear-gradient(tomato,crimson);
+   border-image-slice: 1;
+}
+#work2{
+    border: 7px solid;
+     border-image: linear-gradient(blue,cyan);
+     
+    margin: 20px;
+   border-image-slice: 1;
+}
+
